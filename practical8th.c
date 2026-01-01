@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+     printf("Name:- Shivam Kumar\nERP=11365\n");
+
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+    {
+        printf("%d is even.\n", num);
+    }
+    else
+    {
+        printf("%d is odd.\n", num);
+    }
+
+    return 0;
+}
